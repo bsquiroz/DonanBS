@@ -27,7 +27,9 @@ export default function RootLayout({
                 )}
             >
                 <main className='max-w-2xl min-h-screen m-auto'>
-                    <section className='p-5'>{children}</section>
+                    <section className='p-5 flex flex-col min-h-screen justify-center'>
+                        {children}
+                    </section>
                 </main>
             </body>
         </html>
