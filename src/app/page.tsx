@@ -51,8 +51,6 @@ export default async function Home() {
                 >
         );
 
-    console.log(donations);
-
     async function donate(formData: FormData) {
         'use server';
 

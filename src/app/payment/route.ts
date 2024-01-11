@@ -40,7 +40,5 @@ export async function GET(req: NextRequest) {
 
     const result = await supabaseClient.from('donations').insert(donation);
 
-    console.log(result);
-
     return Response.json({ success: true });
 }
